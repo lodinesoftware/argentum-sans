@@ -20,7 +20,7 @@ jobs:
         python-version: '3.x'
 
     - name: Install dependencies
-      run: pip install fonttools
+      run: pip install fonttools brotli
 
     - name: Run font conversion script
       run: python generate-woff-woff2.py
